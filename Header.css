@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fafafa;
+
+    
+}
+
+.header__logo{
+    height: 30px;
+    object-fit: contain;
+    width: 100px;
+}
+
+.header_menuIcon{
+    height: 20px;
+}
+
+.header_menuIcon:hover{
+
+    background-color: lightgray;
+    cursor: pointer;
+    color: red;
+    
+
+}
+
+.header_input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+    
+}
+  
+
+.header_inputButton{
+
+    width: 50px;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color:gray;
+
+}
+.header_icon{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_icons{
+    margin-right: 15px;
+}
+
+
+
+
+.header_input>input{
+    flex: 1;
+    border:none;
+    
+}
